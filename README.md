@@ -268,3 +268,123 @@ Button generates event
 Callback function executes
         ↓
 Python processing starts
+```
+
+13. Objective
+
+* Understand the fundamentals of Machine Learning (ML).
+* Differentiate between traditional programming and ML-based systems.
+* Work with datasets using Pandas and NumPy.
+* Perform data preprocessing and feature selection.
+* Train a Machine Learning model for prediction.
+* Evaluate model performance using basic metrics.
+* Replace Day 2 rule-based logic with an ML-based prediction system.
+* Prepare the ML model for integration with the Tkinter UI.
+
+## 14. Outcomes
+
+The following should be completed:
+
+* Dataset (CSV file)
+* Data preprocessing code
+* Trained ML model
+* Accuracy report
+* Prediction function
+* Saved model file (`.pkl`)
+
+## 15. Training
+
+### Traditional Programming vs Machine Learning
+
+| Traditional Programming    | Machine Learning             |
+| -------------------------- | ---------------------------- |
+| Rules are written manually | Model learns rules from data |
+| Output = Logic + Input     | Output = Model + Input       |
+| Fixed logic                | Adaptive learning            |
+
+## 16. ML Workflow
+
+```text
+Data Collection
+      ↓
+Data Preprocessing
+      ↓
+Feature Selection
+      ↓
+Model Training
+      ↓
+Model Evaluation
+      ↓
+Prediction
+```
+
+### Activity 1 – Dataset Creation
+
+* Create student dataset in CSV.
+* Add 20–50 records.
+
+### Activity 2 – Data Loading
+
+* Load dataset using Pandas.
+* Display dataset.
+
+### Activity 3 – Data Cleaning
+
+* Remove missing values.
+* Check data types.
+
+### Activity 4 – Model Training
+
+* Train Logistic Regression model.
+* Split dataset.
+
+### Activity 5 – Model Evaluation
+
+* Calculate accuracy.
+* Analyze results.
+
+### Activity 6 – Prediction
+
+* Test model with new input.
+
+### Activity 7 – Save Model
+
+* Save model using pickle.
+
+## 17. Problem Type
+
+### For This Project
+
+**Classification Problem**
+
+Output categories:
+
+* Excellent
+* Good
+* Average
+* At Risk
+
+**Regression Problem**
+
+Output:
+
+* Performance Score (0–100)
+
+## 18. Model Selection
+
+### Algorithms Introduced
+
+* Logistic Regression (Primary)
+* Decision Tree (Optional)
+* Random Forest (Advanced)
+
+## 19. Model Evaluation
+
+* Confusion Matrix
+
+## 20. Improving the Model
+
+* Increase dataset size.
+* Feature selection.
+* Try different algorithms.
+* Tune parameters.
